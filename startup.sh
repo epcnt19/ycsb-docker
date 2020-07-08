@@ -6,6 +6,8 @@ host=192.168.133.201
 if [ $# -ne 1 ]
 then
 	echo "please give workload type (a to f)"
+	echo "e.g. select workloada"
+	echo "$ $0 a"
 	exit 1
 fi
 
